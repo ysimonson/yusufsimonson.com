@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    background-image: url(/images/ss.png);
+    background-repeat: none;
+}
+
+h1 {
+    font-size: 3.3em;
+    color: #5Baaee;
+}
+
+h2 {
+    font-size: 2em;
+    color: #5Baaee;
+}
+
+h3 {
+    padding-top: 20px;
+    font-size: 1.5em;
+    color: #5Baaee;
+    float: left;
+    width: 100px;
+}
+
+a {
+    cursor: pointer;
+    color: #5Baaee;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: square;
+    margin: 0 0 0 20px;
+    line-height: 1.3em;
+}
+
+#info {
+    margin: 20px;
+    width: 440px;
+    position: absolute;
+    z-index: 11;
+    background: black;
+    opacity: 0.8;
+}
+
+#info p {
+    padding: 0.5em 0 0.5em 0;
+    line-height: 1.3em;
+}
+
+#social {
+    padding: 1em 0 1em 0;
+}
+
+#social li {
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+#menu li {
+    float: left;
+    width: 33%;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#menu a:hover {
+    background-color: #777777;
+}
+
+.page {
+    height: 400px;
+    margin: 0;
+    padding: 20px;
+}
+
+.spaced {
+    padding: 20px 0 0 100px;
+    clear: right;
+}
