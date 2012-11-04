@@ -78,16 +78,9 @@ GameVisualizer.prototype.setPos = function(pos) {
 };
 
 GameVisualizer.prototype.setColor = function(color) {
-    this.color = color;
-
     this.cubeMaterial = CUBE_MATERIAL;
     this.cubeMaterial.color.setRGB(color.r, color.g, color.b);
     this.cubeMaterial.ambient = this.cubeMaterial.color;
-
-    for(var i=0; i<this.cubesPool.length; i++) {
-        var cube = this.cubesPool[i];
-        cube.material = this.cubeMaterial;
-    }
 };
 
 GameVisualizer.prototype.drawCell = function(coords) {
