@@ -1,0 +1,131 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font-family: 'Trykker', Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal !important;
+}
+
+p { margin: 1em 0; }
+
+a {
+  color: #00a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+a:visited {
+  color: #a0a;
+}
+
+.container {
+  padding-bottom: 8em;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+ul.posts li {
+  line-height: 1.75em;
+}
+
+ul.posts span {
+  color: #aaa;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  text-align: justify;
+  width: 40em;
+  margin: 3em auto 2em;
+  line-height: 1.75em;
+}
+
+.site .header {
+  text-align: center;
+  margin-bottom: 3em;
+  color: #EEEEEE;
+}
+
+.site .header a {
+  color: #EEEEEE;
+}
+
+.site .header a:hover {
+  color: #333333;
+}
+
+.site .meta {
+  color: #EEEEEE;
+  font-size: 60%;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
